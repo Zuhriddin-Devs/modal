@@ -56,3 +56,27 @@ body {
     background-color: #fff;
     z-index: 2;
 }
+
+
+.modal-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.modal-title {
+    color: black;
+    font-size: 24px;
+}
+
+.modal-exit-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-exit-icon {
+    width: 15px;
+    height: 15px;
+}
