@@ -25,3 +25,21 @@ body {
     padding: 0 20px;
     margin: 0 auto;
 }
+
+.title {
+    color: black;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.show-modal-btn {
+    display: block;
+    width: 110px;
+    background-color: rgb(11, 195, 121);
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 7px 0;
+}
