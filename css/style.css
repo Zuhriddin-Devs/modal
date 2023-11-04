@@ -43,3 +43,16 @@ body {
     cursor: pointer;
     padding: 7px 0;
 }
+
+.modal {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #fff;
+    z-index: 2;
+}
