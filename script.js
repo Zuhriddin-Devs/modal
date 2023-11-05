@@ -12,3 +12,8 @@ elmodalExitBtn.addEventListener('click', () => {
     elModal.classList.add('hidden');
     elOverlay.classList.add('hidden');
 });
+
+elOverlay.addEventListener('click', () => {
+    elModal.classList.add('hidden');
+    elOverlay.classList.add('hidden');
+});
