@@ -17,3 +17,10 @@ elOverlay.addEventListener('click', () => {
     elModal.classList.add('hidden');
     elOverlay.classList.add('hidden');
 });
+
+document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") {
+        elModal.classList.add('hidden');
+        elOverlay.classList.add('hidden');
+    };
+});
